@@ -1,0 +1,274 @@
+.body{
+    color:  #434455;
+    background-color: #fff;
+    font-family: "Roboto", sans-serif
+    
+}
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+    margin-right: 76px;
+}
+.logo-studio{
+    color: #2e2f42 ;
+    text-decoration: none;
+}
+.link-nav{
+    color: #2e2f42 ;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    list-style: none;
+    text-decoration: none;
+    padding: 24px 0;
+    display: block;
+    
+}
+.link-nav:hover{
+ color: #404bbf;
+ list-style: none;
+}
+.link-nav:focus{
+    color: #404bbf;
+    list-style: none;
+}
+
+.adres{
+    font-style: normal;
+    list-style: none;
+}
+.email-adres{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
+    list-style: none;
+    padding: 24px 0;
+}
+.email-adres:hover{
+    color: #404bbf;
+    list-style: none;
+}
+.email-adres:focus{
+    color: #404bbf;
+    list-style: none;
+}
+.section-one{
+    background-color: #2e2f42;
+    list-style: none;
+    padding: 188px 0;
+    justify-content: center
+}
+.h-one{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    list-style: none;
+    max-width: 496px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+}
+.button{
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: #4d5ae5;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+    
+}
+.button:hover{
+ background-color: #404BBF;
+}
+.button:focus{
+    background-color: #404BBF; 
+}  
+.h-tre-one{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    list-style: none;
+    margin-bottom: 8px;
+}
+.p-one{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;    
+    list-style: none;
+    margin: 0px;
+}
+.section-tre{
+    background-color: #F4F4FD;
+    list-style: none;
+    padding: 120px 0;
+    margin: 0px;
+}
+.h-tu-one{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    list-style: none;
+    margin-bottom: 72px;
+}
+.human-li{
+    background-color: #ffffff;
+    width: calc((100% - 3 * 24px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+.footer{
+    background-color: #2e2f42;
+    padding: 100px 0;
+}
+.p-tu{
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+    list-style: none;
+    max-width: 264px;
+    margin: 0px;
+}
+.studios{
+    color: #f4f4fd;
+    letter-spacing: 0.02em;
+}
+.logotipe{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.images{
+    display: block;
+}
+.header{
+    border-bottom: 1px solid #e7e9fc
+}
+.container.div-header{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.div-header{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.adres{
+    display: flex;
+    align-items: center;
+}
+
+.navig{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    gap: 40px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.body-li{
+    padding: 24px 0;
+}
+.menu-adres{
+    display: flex;
+    gap: 40px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.advantages-section{
+    padding: 120px 0;
+}
+.advantages-menu{
+    display: flex;
+    gap: 24px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.advantages-list{
+    width: calc((100% - 3 * 24px) / 4);
+}
+.team-menu{
+    display: flex;
+    gap: 24px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.human-div{
+    padding: 32px 0;
+}
+
+.por-section{
+    padding: 120px 0 120px 0;
+}
+.por-menu{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.por-list{
+    width: calc((100% - 48px) / 3);
+}
+.div-list{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
