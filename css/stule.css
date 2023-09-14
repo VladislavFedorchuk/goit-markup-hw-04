@@ -28,38 +28,43 @@
     text-decoration: none;
     padding: 24px 0;
     display: block;
-  transition:   color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.link-na{
-    color: #2e2f42 ;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    list-style: none;
-    text-decoration: none;
-    padding: 24px 0;
-    display: block;
-    position: relative;
-    color: #404bbf;
-
-}
-.link-na ::after{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    height: 4px;
-    background-color: #404bbf;
-    border-radius: 2px;
+  transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-nav:hover{
  color: #404bbf;
  list-style: none;
+ 
 }
 .link-nav:focus{
     color: #404bbf;
     list-style: none;
+}
+.link-na{
+    display: block;
+   list-style: none;
+   text-decoration: none;
+  transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+    color: #404bbf;
+    position: relative;
+  
+}
+.link-na::after{
+    width: 48px;
+    top: 96%;
+    background-color: #404bbf;
+    position: absolute;
+    left: 0px;
+    bottom: -1px;
+    height: 4px;
+    border-radius: 2px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    content: '';
+    
 }
 
 .adres{
@@ -127,7 +132,7 @@
     margin: 0px;
     margin-left: auto;
     margin-right: auto;
- transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button:hover{
  background-color: #404BBF;
@@ -255,7 +260,9 @@
     margin: 0;
     list-style: none;
 }
-.body-li{
+.svg-icon{
+    width: 64px;
+    height: 64px;
 }
 .menu-adres{
     display: flex;
