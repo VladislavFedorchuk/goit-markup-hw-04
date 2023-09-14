@@ -369,12 +369,13 @@
     justify-content: center;
     text-decoration: none;
     list-style: none;
+    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icons-ah :hover{
+.icons-ah:hover{
     background-color: #404bbf;
     
 }
-.icons-ah :focus{
+.icons-ah:focus{
     background-color: #404bbf;
 }
 
