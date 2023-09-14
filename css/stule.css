@@ -444,9 +444,6 @@
 }
 .footer-achor :hover{
     background-color: #31d0aa;
-    height: 40px;
-    width: 30px;
-    border-radius: 50%;
 }
 .footer-achor :focus{
     background-color: #31d0aa;
