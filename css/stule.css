@@ -393,8 +393,8 @@
     position: relative;
     overflow: hidden;
 }
+.por-list:hover .div-paragraf {transform: translateY(0%);}
 .div-paragraf{
-    
     position: absolute;
     top: 0;
     font-size: 16px;
@@ -419,6 +419,7 @@
     margin-right: 120px;
 }
 .footer-paragraf{ 
+    margin-top: 0;
     margin-bottom: 16px;
     font-size: 16px;
     font-weight: 500;
